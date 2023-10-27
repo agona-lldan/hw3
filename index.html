@@ -10,29 +10,20 @@
   </head>
   <body>
     <main class="todo">
-      <p class="todo__hint">Попробуйте написать "#work". Здесь добавлен функционал тегов задачи 😎</p>
+      <p class="todo__hint">
+        Попробуйте написать "#work". Здесь добавлен функционал тегов задачи 😎
+      </p>
       <div class="todo__wrapper">
         <div class="todo__input-wrapper">
-          <input type="text" class="todo__input" id="input" placeholder="Напиши задачу и нажми Enter 🥺">
-          <div  class="todo__highlight" id="highlight"></div>
+          <input
+            type="text"
+            class="todo__input"
+            id="input"
+            placeholder="Напиши задачу и нажми Enter 🥺"
+          />
+          <div class="todo__highlight" id="highlight"></div>
         </div>
-        <div class="todo__list" id="list">
-          <div class="todo__item" data-id="1">
-            <div class="todo__item-block">
-              <button class="todo__check active"></button>
-              <p class="todo__text">fff</p>
-            </div>
-            <div class="todo__item-block">
-              <div class="todo__hashtag-wrapper">
-                <div class="todo__hashtag">#work</div>
-                <div class="todo__hashtag">#work</div>
-              </div>
-              <button class="todo__delete" data-delete="1">удалить</button>
-            </div>
-
-          </div>
-        </div>
-
+        <div class="todo__list" id="list"></div>
       </div>
     </main>
     
